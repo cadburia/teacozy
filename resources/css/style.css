@@ -61,3 +61,20 @@ h2, h4 {
   margin: 0;
   padding: 10px;
 }
+
+#featured-container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.image-container {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+#pictures-container {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 9px 13px;
+}
