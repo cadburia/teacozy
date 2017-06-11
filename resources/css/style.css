@@ -57,7 +57,7 @@ main {
   background-color: black;
 }
 
-h2, h4 {
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
@@ -75,6 +75,22 @@ h2, h4 {
 
 #pictures-container {
   flex-direction: column;
-  flex-wrap: nowrap;
   margin: 9px 13px;
+}
+
+#locations-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  align-items: center;
+}
+
+.store-location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
